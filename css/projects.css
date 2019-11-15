@@ -63,7 +63,7 @@
 #projects .project-container .box.image1 .image {
   height: 100%;
   width: 100%;
-  background-image: url('../img/img1.jpg');
+  background-image: url('../img/madness.PNG');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -71,7 +71,7 @@
   grid-row: 2 ;
 }
 #projects .project-container .box.image2 {
-  background-image: url('../img/madness.PNG');
+  background-image: url('../img/img2.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
