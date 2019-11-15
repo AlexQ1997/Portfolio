@@ -1,0 +1,127 @@
+#projects {
+  padding: 80px 15px;
+  background-color: #f3f2f4;
+}
+
+#projects .title {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  letter-spacing: .2rem;
+}
+
+
+#projects .title h1 {
+  position: relative;
+  font-size: 4.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #22004f;
+  z-index: 1;
+  letter-spacing: 4px;
+}
+
+/*//////////////////////////////////////////////////// */
+
+
+/*BOX AND GRID*/
+#projects .project-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 200px 200px;
+  grid-gap: 10px;
+  width: 50%;
+  margin: 0 auto 0 auto;
+}
+#projects .project-container .box {
+  display: block;
+  transition: all .4s ease-in-out;
+  cursor: pointer;
+  width: 100%;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+#projects .project-container .box:hover {
+  background: rgba(255,255,255, 1);
+  -webkit-box-shadow: 0px 40px 74px 24px rgba(0,0,0,0.08);
+  -moz-box-shadow: 0px 40px 74px 24px rgba(0,0,0,0.08);
+  box-shadow: 0px 40px 74px 24px rgba(0,0,0,0.08);
+}
+/*BOX AND GRID END*/
+
+
+/*/////////////////////////////////////////////////////////// */
+
+/* IMAGES */
+
+#projects .project-container .box.image1 .image {
+  height: 100%;
+  width: 100%;
+  background-image: url('../img/img1.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  grid-column: 2 ;
+  grid-row: 2 ;
+}
+#projects .project-container .box.image2 {
+  background-image: url('../img/img2.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  grid-column: 2 ;
+  grid-row: 1 ;
+}
+#projects .project-container .box.image3 {
+  background-image: url('../img/img3.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  grid-column: 1 ;
+  grid-row: 2 ;
+}
+#projects .project-container .box.image4 {
+  background-image: url('../img/img4.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  grid-column: 2 ;
+  grid-row: 2 ;
+}
+
+/*IMAGES END*/
+
+/*//////////////////////////////////////////////////////////// */
+
+/*BOX AND IMAGE HOVER EFFECTS*/
+
+#projects .project-container .box .image .hover-bg {
+padding: 10px 20px;
+background: rgba(255,255,255,0);
+transition: all .4s ease-in-out;
+}
+#projects .project-container .box:hover .image .hover-bg {
+padding: 10px 20px;
+background: rgba(255,255,255,.2);
+}
+#projects .project-container .box:hover .image .hover-bg .title .text {
+  transition: transform 0.4s ease;
+}
+#projects .project-container .box:hover .image .hover-bg .title .text:hover {
+    transform: scale(1.5);
+}
+
+/*EFFECTS END*/
+
+/*//////////////////////////////////////////////////////////// */
+
+/*THIS TOOK FOREVER WTF*/
+
+
+/*Responsive for tablet and phone */

@@ -1,0 +1,91 @@
+#top {
+
+}
+
+#top .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 50px 0px;
+  align-items: center;
+}
+
+
+
+#top .info {
+padding: 15px;
+position: relative;
+margin: 0 auto 0 auto;
+}
+
+
+
+#top .info h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  letter-spacing: .2rem;
+  color: #1b1b1c;
+  z-index: 1;
+  position: relative;
+}
+
+
+#top .info p {
+  text-transform: uppercase;
+  margin-bottom: 4rem;
+  letter-spacing: .1rem;
+  color: #949494;
+  z-index: 1;
+  position: relative;
+}
+
+
+#top .info a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #1b1b1c;
+  font-weight: 600;
+  border-bottom: 2px solid currentColor;
+  padding-bottom: 8px;
+  letter-spacing: .2rem;
+  z-index: 1;
+  position: relative;
+}
+
+
+
+#top .img {
+
+}
+
+#top .self_portrait .background-img {
+  background: url('../img/profile.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 500px;
+  height: 600px;
+}
+
+/*Hover effect for the h1 and p*/
+#top .info .me {
+  transition: transform 0.5s ease;
+}
+
+#top .info .me:hover {
+  transform: scale(1.1)translate(20px);
+}
+
+/*For a tag Hover effect because this is the only way it works*/
+
+#top .info .link {
+  transition: transform 0.5s ease;
+}
+
+#top .info .link:hover {
+   transform: scale(1.1)translate(20px);
+}
+
+/*Responsive for tablet and phone */

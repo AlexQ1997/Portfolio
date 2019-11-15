@@ -1,0 +1,13 @@
+@import "cssreset.css";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,600,600i,700,700i&display=swap');
+@import "topsection.css";
+@import "header.css";
+@import "projects.css";
+@import "experience-section.css";
+@import "contact.css";
+@import "footer.css";
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
